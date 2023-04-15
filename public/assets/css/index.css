@@ -1,0 +1,381 @@
+h1 {
+  font-size: 30px;
+  line-height: 90px;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  line-height: 90px;
+  color: #4999db;
+  text-align: center;
+  font-weight: bold;
+}
+.headerline {
+  height: 90px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.headerline .btns {
+  font-size: 18px;
+  line-height: 40px;
+  color: #333;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 20px;
+  border-radius: 4px;
+}
+.headerline .btns:hover {
+  opacity: 0.8;
+  background-color: #4999db;
+  color: #fff;
+}
+.content {
+  width: 900px;
+  display: block;
+  margin: auto;
+}
+.deafultbtn {
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #4999db;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 20px;
+  border-radius: 4px;
+}
+.searchline {
+  text-align: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.searchline input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 20px;
+}
+.searchline a {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0 10px;
+  background-color: #4999db;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+/* 更多搜索 */
+.mainsearch {
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin: 30px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  display: none;
+}
+.mainsearch select {
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+  line-height: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.mainsearch #test {
+  width: 400px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.mainsearch #test span {
+  width: 200px;
+  text-align: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.mainsearch input[type=range]::-webkit-slider-thumb {
+  width: 200px;
+  -webkit-appearance: none;
+  height: 25px;
+  width: 25px;
+  margin-top: -5px;
+  /*使滑块超出轨道部分的偏移量相等*/
+  background: #ffffff;
+  border-radius: 50%;
+  /*外观设置为圆形*/
+  border: solid 0.125em rgba(205, 224, 230, 0.5);
+  /*设置边框*/
+  box-shadow: 0 0.125em 0.125em #3b4547;
+  /*添加底部阴影*/
+}
+.mainsearch .submit {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 40px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 0 10px;
+  background-color: #4999db;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+/* 首页商品列表展示 */
+.indexbox {
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.indexbox .form {
+  padding: 30px 0;
+  margin: 0 30px;
+}
+.indexbox .form .defaultbtn {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 30px auto;
+  color: #fff;
+  background-color: #4999db;
+}
+.indexbox .form .box.hide {
+  display: none;
+}
+.indexbox .form .box {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+}
+.indexbox .form .box .line {
+  padding: 20px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.indexbox .form .box .line span {
+  color: #000;
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}
+.indexbox .form .box .line .txt {
+  font-size: 14px;
+  color: #333;
+  padding-left: 20px;
+  text-align: left;
+}
+.indexbox .form .box .line .txt .png {
+  width: 200px;
+  display: block;
+}
+.indexbox .form .box .reviews {
+  padding: 30px 120px;
+  font-size: 18px;
+  flex-wrap: nowrap;
+}
+.indexbox .form .box .reviews .title {
+  font-weight: bold;
+  text-align: left;
+}
+.indexbox .form .box .reviews .line.hide {
+  display: none;
+}
+.indexbox .form .box .reviews .line {
+  flex-wrap: nowrap;
+}
+.indexbox .form .box .reviews .line > span {
+  width: 120px;
+}
+.indexbox .form .box .reviews .line .txt {
+  /* 点击显示剩下的评论 */
+}
+.indexbox .form .box .reviews .line .txt .name {
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+}
+.indexbox .form .box .reviews .line .txt .rate {
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  line-height: 30px;
+}
+.indexbox .form .box .reviews .line .txt .rate span {
+  color: #ec830c;
+}
+.indexbox .form .box .reviews .line .txt .desc {
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  padding: 10px;
+}
+.indexbox .form .box .reviews .line .txt .desc span {
+  font-size: 14px;
+  color: #333;
+  display: none;
+}
+.indexbox .form .box .reviews .line .txt .morebtn {
+  color: #333;
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  width: 80px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* 首页 Soldform */
+.Soldform,
+.Bestform {
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto;
+}
+.Soldform .line,
+.Bestform .line {
+  padding: 20px 0;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.Soldform .line .png,
+.Bestform .line .png {
+  width: 80px;
+  margin-right: 60px;
+  margin-left: 30px;
+}
+.Soldform .line .contxt p,
+.Bestform .line .contxt p {
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+}
+/* checkout页面 */
+#mytable {
+  display: block;
+  margin: auto;
+}
+.pay.deafultbtn,
+.back.deafultbtn {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+}
+/* profile */
+#userform {
+  width: 900px;
+  display: block;
+  margin: auto;
+}
+#userform .defaultbtn {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 30px auto;
+  color: #fff;
+  background-color: #4999db;
+}
+#userform .inputline {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+#userform .inputline .tit {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+  width: 120px;
+  display: inline-block;
+  margin-right: 30px;
+  color: #333;
+}
+#userform .inputline .inputbox input {
+  border: none;
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+}
+/* manager */
+.manager .defaultbtn {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 30px auto;
+  color: #fff;
+  background-color: #4999db;
+}
+.manager .inputline {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+.manager .inputline .tit {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+  width: 120px;
+  display: inline-block;
+  margin-right: 30px;
+  color: #333;
+}
+.manager .inputline .inputbox input {
+  border: none;
+  font-size: 14px;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+}
+.indextopline {
+  text-align: center;
+}
+.indextopline a.sure {
+  background-color: #4999db;
+  color: #fff;
+}
+.indextopline a {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin: 30px;
+  color: #4999db;
+}
+.indexmain > .conbox:not(:first-child) {
+  display: none;
+}

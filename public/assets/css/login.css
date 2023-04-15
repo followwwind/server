@@ -1,0 +1,213 @@
+/* 向下箭头 */
+.down {
+  height: 0;
+  width: 0;
+  display: inline-block;
+  border: 5px solid transparent;
+  border-top-color: #7f7f7f;
+  margin-left: 10px;
+  margin-bottom: -1px;
+}
+/* 重置样式 */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* 公共样式 */
+.fn-clear {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  height: 100px;
+}
+/* 头部 */
+.head {
+  padding: 0 65px;
+}
+.head .conleft .fl {
+  height: 78px;
+  line-height: 78px;
+  font-size: 14px;
+  color: #7f7f7f;
+  margin-right: 27px;
+  padding: 0 10px;
+}
+.conleft .fl.sure {
+  background-color: #ccc;
+  color: #fff;
+}
+.conleft .fl:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+.head .conright .fl {
+  color: #7f7f7f !important;
+  font-size: 14px;
+  margin-right: 27px;
+  float: right;
+  cursor: pointer;
+  height: 78px;
+  line-height: 78px;
+}
+/* 正文 */
+.box .logo {
+  margin: 45px auto 15px auto;
+  height: 30px;
+  display: block;
+}
+.box p {
+  font-size: 13px;
+  color: #000;
+  text-align: center;
+  letter-spacing: 0;
+}
+.boxcontent .content {
+  width: 380px;
+  position: relative;
+  border-radius: 8px;
+  min-height: 375px;
+  margin: 0 auto;
+  background: #fff;
+  padding-top: 50px;
+}
+.boxcontent .code_icon {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
+}
+.boxcontent .code_icon .code_tips {
+  position: absolute;
+  top: 0;
+  right: 26px;
+  background: url('../images/border.png') no-repeat 50%;
+  height: 26px;
+  width: 66px;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #7f7f7f;
+}
+.boxcontent .tit {
+  font-size: 26px;
+  line-height: 37px;
+  display: block;
+  color: #000;
+  text-align: center;
+}
+.boxcontent .tab {
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.boxcontent .tab .smalltit {
+  float: left;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+}
+.boxcontent .tab .smalltit.on {
+  color: #000;
+}
+.boxcontent .tab .smalltit:first-child:after {
+  content: " ";
+  position: absolute;
+  top: 4px;
+  right: 0;
+  display: block;
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.boxcontent .form {
+  width: 300px;
+  padding-top: 20px;
+  margin: auto;
+}
+.boxcontent .form .line {
+  margin: 9px;
+}
+.boxcontent .form .line input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 1x;
+  margin: 0 auto;
+  background: #f7f7f7;
+  border-radius: 9px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-indent: 16px;
+  font-size: 15px;
+  color: #000;
+}
+.boxcontent .form .btns {
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-image: -moz-linear-gradient(90deg, #a931e5 0%, #5708fa 100%);
+  background-image: -webkit-linear-gradient(90deg, #a931e5 0%, #5708fa 100%);
+  background-image: -ms-linear-gradient(90deg, #a931e5 0%, #5708fa 100%);
+  background-image: linear-gradient(90deg, #a931e5 0%, #5708fa 100%);
+  display: block;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin: 20px 10px;
+}
+.boxcontent .btnlist {
+  width: 280px;
+  margin: auto;
+}
+.boxcontent .btnlist .fl a {
+  color: #666;
+  font-size: 15px;
+}
+.boxcontent .btnlist .fr a {
+  color: #5708fa;
+  font-size: 15px;
+}
+input {
+  border: none;
+  list-style: none;
+}
+/* 页脚 */
+.footer {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 57px;
+}
+.footer p {
+  font-size: 15px;
+  color: #9b9b9b;
+  text-align: center;
+}
+footer {
+  background-color: #000;
+}
+footer p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
